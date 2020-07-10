@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hathoute.bacplus">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_circle"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".SplashScreenActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SubjectsActivity" />
+        <activity
+            android:name=".TabbedSubjectActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".LessonActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Sliding.Light" />
+        <activity
+            android:name=".ExamActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.Sliding.Light" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.hathoute.bacplus.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <!-- resource file to create -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".OnAppDestroyedService"
+            android:stopWithTask="false" />
+
+        <service
+            android:name=".AdManagerService"
+            android:stopWithTask="true" />
+
+        <activity android:name=".OfflineDocsActivity"
+            android:theme="@style/NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.ca-app-pub-9871252548902893~9736828725"
+            android:value="ca-app-pub-9871252548902893~9736828725"/>
+
+    </application>
+
+</manifest>

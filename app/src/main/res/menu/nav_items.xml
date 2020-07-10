@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_lastseen"
+            android:title="@string/nav_last_seen"
+            android:icon="@drawable/ic_lastseen"
+            android:checkable="true"
+            android:orderInCategory="0"/>
+        <item android:id="@+id/nav_allfiles"
+            android:title="@string/nav_all_files"
+            android:icon="@drawable/ic_docs"
+            android:checkable="true"
+            android:orderInCategory="0"/>
+    </group>
+
+    <item android:id="@+id/item_subjects"
+        android:title="@string/nav_subjects"
+        android:orderInCategory="1">
+        <menu>
+            <item android:title="Placeholder"
+                android:orderInCategory="1"/>
+        </menu>
+    </item>
+</menu>

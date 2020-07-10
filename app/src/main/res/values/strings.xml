@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Bac Maroc</string>
+
+    <string name="years_title">السنة الدراسية</string>
+    <string name="years_notice">المرجو اختيار السنة الدراسية التي تتواجدون بها حاليا او التي تريدون الاضطلاع عليها</string>
+    <string name="years_first">اولى باكالوريا</string>
+    <string name="years_second">ثانية باكالوريا</string>
+    <string name="file_open">مشاهدة</string>
+    <string name="file_download">تحميل</string>
+    <string name="file_delete">حذف</string>
+    <string name="download_starting">جاري التحميل</string>
+    <string name="download_size">تم تحميل $ من £</string>
+    <string name="opening_starting">المرجو الانتظار</string>
+    <string name="download_successful">تم التحميل بنجاح</string>
+    <string name="delete_notice">هل تريدون حذف الملف؟</string>
+    <string name="delete_success">تم الحدف بنجاح</string>
+    <string name="delete_fail">فشلت العملية</string>
+    <string name="delete_history">هل تريدون حدف جميع السجلات؟\nلا يمكنكم التراجع عن هذا</string>
+    <string name="back">رجوع</string>
+    <string name="open">فتح</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="number">رقم</string>
+    <string name="delete">حذف</string>
+    <string name="refresh">تحديث</string>
+
+    <string name="message_welcome">مرحبا بكم في باك+</string>
+    <string name="message_main">يمكنكم البدء بمشاهدة و تحميل الدروس، أو تصفح الملفات التي قمتم بتحميلها.</string>
+    <string name="choice_online">حمل الدروس الان</string>
+    <string name="choice_offline">تصفح الملفات</string>
+
+    <string name="appbartitle_main">الرئيسية</string>
+
+    <string name="options_title">الشعبة</string>
+    <string name="options_notice">المرجو اختيار الشعبة من خلال القائمة اسفله</string>
+    <string-array name="options_firstyear_array">
+        <item>علوم رياضية</item>
+        <item>علوم تجريبية</item>
+        <item>علوم إقتصادية</item>
+    </string-array>
+    <string-array name="options_firstyear_helper">
+        <item>scm</item>
+        <item>scex</item>
+        <item>sceco</item>
+    </string-array>
+
+    <string-array name="options_secondyear_array">
+        <item>علوم رياضية أ</item>
+        <item>علوم رياضية ب</item>
+        <item>علوم فيزيائية</item>
+        <item>علوم الحياة و الارض</item>
+        <item>علوم إقتصادية</item>
+    </string-array>
+    <string-array name="options_secondyear_helper">
+        <item>scma</item>
+        <item>scmb</item>
+        <item>scpc</item>
+        <item>svt</item>
+        <item>sceco</item>
+    </string-array>
+
+    <string-array name="subjects">
+        <item>الرياضيات</item>
+        <item>اللغة العربية</item>
+        <item>المحاسبة والرياضيات المالية</item>
+        <item>الاقتصاد والتنظيم الإداري للمقاولات</item>
+        <item>الاقتصاد العام و الاحصاء</item>
+        <item>الفيزياء و الكيمياء</item>
+        <item>علوم الحياة و الارض</item>
+        <item>اللغة الفرنسية</item>
+        <item>اللغة الانجليزية</item>
+        <item>الفلسفة</item>
+        <item>التربية الاسلامية</item>
+        <item>التاريخ و الجغرافيا</item>
+        <item>علوم المهندس</item>
+    </string-array>
+
+    <string-array name="subjects_abv">
+        <item>math</item>
+        <item>arabic</item>
+        <item>compta</item>
+        <item>economy</item>
+        <item>ecogen</item>
+        <item>physics</item>
+        <item>svt</item>
+        <item>french</item>
+        <item>english</item>
+        <item>philosophy</item>
+        <item>islamic</item>
+        <item>geography</item>
+        <item>engineering</item>
+    </string-array>
+
+    <string-array name="subjects_helper">
+        <item>2nd;all</item>
+        <item>1st;all</item>
+        <item>2nd;+sceco</item>
+        <item>2nd;+sceco</item>
+        <item>2nd;+sceco</item>
+        <item>2nd;all;-sceco</item>
+        <item>2nd;all;-scmb;-sceco</item>
+        <item>1st;all</item>
+        <item>2nd;all</item>
+        <item>2nd;all</item>
+        <item>1st;all</item>
+        <item>1st;all</item>
+        <item>2nd;+scmb</item>
+    </string-array>
+
+    <string name="list_of_subjects">لائحة المواد</string>
+
+    <string-array name="subject_tabs">
+        <item>دروس</item>
+        <item>امتحانات</item>
+        <item>فيديوهات</item>
+    </string-array>
+
+    <string name="lesson_id">الدرس $ :</string>
+    <string name="lesson_name">الدرس : $</string>
+
+    <string name="iv_contentdesc">Display Youtube thumbnail</string>
+
+    <string name="nav_last_seen">اخر المشاهدات</string>
+    <string name="nav_all_files">جميع الملفات</string>
+    <string name="nav_subjects">المواد</string>
+
+    <string name="string_year">السنة : $</string>
+    <string name="string_subject">المادة : $</string>
+    <string name="string_option">الشعب : $</string>
+    <string name="string_region">الجهة : $</string>
+
+    <string-array name="exam_types">
+        <item>الامتحان الوطني</item>
+        <item>الامتحان الجهوي</item>
+        <item>فرض محروس/منزلي</item>
+    </string-array>
+
+    <string-array name="exam_sessions">
+        <item>عادية</item>
+        <item>إستدراكية</item>
+    </string-array>
+
+    <string name="exam_surveille">الامتحان رقم : $</string>
+    <string name="exam_session">دورة : $</string>
+    <string name="exam_region">جهة : $</string>
+
+    <string name="video_author">من طرف $</string>
+
+    <string name="offline_notice">هنا ستجدون جميع الملفات التي قمتم بتحميلها من خلال التطبيق.
+
+للبدء، المرجو الضعط على $الزر على اليمين فوق النافدة£.</string>
+    <string name="offline_available">عدد الملفات المتاحة: $</string>
+
+    <string name="notice_nothing_found_available">لم نستطع إيجاد اي ملف قمت بتحميله.
+ان لم تقم بتحميل اي ملف بعد، المرجو الرجوع الى القائمة الاولى و الضعط على الزر البرتقالي.</string>
+    <string name="notice_empty_lastseen">لا توجد اي معلومة عن آخر مشاهداتكم، سجلكم فارغ.</string>
+    <string name="notice_disconnected">لستم متصلين بشبكة الانترنت.</string>
+    <string name="notice_networkproblem">يبدو أن هناك مشكلة في الإنترنت، يرجى التحقق من طريقة الاتصال الخاصة بك.</string>
+    <string name="notice_empty_videoslist">القائمة فارغة. نحن على علم بهذا وسوف نضيف مقاطع فيديو في أسرع وقت ممكن.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

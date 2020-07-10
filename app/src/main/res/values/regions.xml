@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="regions_names">
+        <item>الرباط سلا القنيطرة</item>
+        <item>الدار البيضاء سطات</item>
+        <item>طنجة تطوان الحسيمة</item>
+        <item>سوس ماسة</item>
+        <item>الشرق</item>
+        <item>العيون الساقية الحمراء</item>
+        <item>بني ملال خنيفرة</item>
+        <item>مراكش آسفي</item>
+    </array>
+</resources>
